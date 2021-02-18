@@ -1,17 +1,17 @@
 body {
  text-align:center;
-  background:linear-gradient(	#FF0000 0%, #1E88E5 100% );
+  background:linear-gradient(	#FF0000 0%, #1E88E5 100%);
  background-repeat:no-repeat;
 }
 h1 {
- text-shadow: 2px 2px  #76FF03;
+ text-shadow: 2px 2px #76FF03;
   color:cyan;
   font-size:47px;
 }
 img {
  height:300px;
   width:450px;
-  border-radius:50%
+  border-radius:50%;
 }
 #bio {
   padding:20px;
@@ -37,4 +37,14 @@ font-family: 'Big Shoulders Display', cursive;
 }
 .link:hover {
 background-color:dodgerblue;
+}
+html {
+scroll-behavior: smooth;
+}
+.newpage:hover {
+background-color:dodgerblue;
+}
+.newpage {
+background-color:red;
+font-family: algerian;
 }
