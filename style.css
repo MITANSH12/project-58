@@ -42,9 +42,10 @@ html {
 scroll-behavior: smooth;
 }
 .newpage:hover {
-background-color:dodgerblue;
+transform: scale(0.9);
 }
 .newpage {
-background-color:red;
-font-family: algerian;
+transition:transform .2s;
 }
+
+
