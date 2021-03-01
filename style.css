@@ -24,6 +24,7 @@ p {
  
 }
 .menu {
+    position: fixed;
  list-style: none;
 font-family: cursive;
 float: right;
@@ -47,5 +48,4 @@ transform: scale(0.9);
 .newpage {
 transition:transform .2s;
 }
-
 
